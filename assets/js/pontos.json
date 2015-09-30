@@ -1,0 +1,28 @@
+[
+    {
+        "Id": 1,
+        "Latitude": -22.904247,
+        "Longitude": -43.289880,
+        "Titulo": "Casa do Henrique",
+        "Endereco": "Rua Piranga, número 19",
+        "Carros": 10,
+        "Zone": [{"lat": -22.903777, "lng": -43.289465},
+                 {"lat": -22.904543, "lng": -43.289400}, 
+                 {"lat": -22.904587, "lng": -43.290323},
+                 {"lat": -22.903870, "lng": -43.290414}
+                ]
+    },
+    {
+        "Id": 2,
+        "Latitude": -22.902279,
+        "Longitude": -43.288506,
+        "Titulo": "Meu vizinho",
+        "Endereco": "Rua sei la qual, que se dane",
+        "Carros": 15,
+        "Zone": [{"lat": -22.903777, "lng": -43.289465},
+                 {"lat": -22.904543, "lng": -43.289400}, 
+                 {"lat": -22.904587, "lng": -43.290323},
+                 {"lat": -22.903870, "lng": -43.290414}
+                ]
+    }
+]

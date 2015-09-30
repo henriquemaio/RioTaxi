@@ -1,0 +1,24 @@
+{
+  "name": "learning-bootstrap",
+  "version": "0.0.0",
+  "authors": [
+    "Henrique Maio <henriquemaio@gmail.com>"
+  ],
+  "description": "RioTaxi",
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "font-awesome": "fontawesome#~4.4.0"
+  }
+}

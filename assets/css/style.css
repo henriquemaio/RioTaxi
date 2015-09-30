@@ -1,0 +1,34 @@
+html, body, #googleMap, .container {
+    width: 100%;
+    height: 100%;
+}
+    
+html {
+    position: relative;
+}
+
+body {
+    background-color: rgb(64, 110, 153);
+}
+
+#googleMap {
+    margin: 0 auto;
+    display:table;
+}
+
+#mapContainer{
+    padding: 2% 0 0 0;
+}
+
+.navbar {
+    background-color: rgb(64, 110, 153);
+}
+
+.navbar-default .navbar-nav>li>a {
+ 
+    color: white;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}   
