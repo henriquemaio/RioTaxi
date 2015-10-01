@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    background-color: rgb(64, 110, 153);
+    background-color: white;
 }
 
 #googleMap {
@@ -80,3 +80,119 @@ body {
   font-weight: 300;
 }
 
+#crachaBox {
+    width: 500px;
+    height: 300px;
+    background-color: rgb(64, 110, 153)  !important;
+    margin: 100px auto;
+    border: solid 5px  rgb(51, 89, 123);
+    -webkit-print-color-adjust:exact;
+}
+
+.leanLogo {
+
+    float: left;
+    margin-left: 50px;
+}
+
+.leanTitulo {
+    color: white;
+    font-size: 16px;
+    padding-top: 50px;
+    padding-left: 20px;
+    display: inline-block;
+}
+
+.cnpj {
+    color: white;
+    padding-left: 20px;
+    display: inline-block;
+}
+
+.bottom {
+    display: inline-block;
+    margin-top: 10px;
+    position: fixed;
+    top: 270px;
+    max-width: 500px;
+}
+
+.userPhoto {
+    float: left;
+    margin-left: 50px;
+}
+
+
+
+.top {
+    padding-top: 30px;
+    display: inline-block;
+    position: fixed;
+    max-width: 490px;
+}
+
+.printButton {
+    margin: auto;
+    text-align: center;
+}
+
+.printButton .btn-default {
+    background-color: #CECDCD;
+}
+
+
+.nome textarea {
+    margin-top: -5px;
+    width: 217px;
+}
+.nome, .cpf {
+    float: right;
+    color: black;
+    display: inline-block;
+    font-size: 20px;
+    padding-top: 10px;
+    margin-right: 12px;
+   
+}
+
+.nome b {
+    vertical-align: top;
+}
+
+.cpf {
+    margin-right: 12px;
+}
+
+.cpfInput {
+    width: 217px;
+}
+
+@media print {
+    .navbar {
+        display: none;
+    }
+    .container{
+        display: block;   
+    }
+    .crachaBox {
+        -webkit-print-color-adjust:exact;
+        background-color: rgb(64, 110, 153) !important;
+    }
+    *, :after, :before {
+        background: transparent !important;    
+    }
+    .printButton {
+        display: none;
+    }
+    
+    .nome b, .cpf b, .leanTitulo, .cnpj {
+        color: white !important;
+    }
+    
+    textArea,  .cpfInput {
+        border: none;
+        resize: none;
+        color: white !important;
+    }
+    @page {size: landscape;}
+}

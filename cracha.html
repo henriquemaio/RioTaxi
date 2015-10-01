@@ -11,7 +11,23 @@
             <link href="assets/css/style.css" rel="stylesheet">
             <script src="bower_components/jquery/dist/jquery.min.js"></script>
         </head>
+<script type="text/javascript">//<![CDATA[
 
+function autoResize(e) {
+    var ele = e.target;
+    var t = ele.scrollTop;
+    ele.scrollTop = 0
+    console.log(ele)
+    if (t > 0) {
+        //ele.style.overflowY = "hidden";
+        ele.style.height = (ele.offsetHeight + t) + "px";
+    }
+
+
+}
+//]]> 
+
+</script>
       <body>
 
           
@@ -28,22 +44,32 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Mapa</a></li>
-            <li><a href="#about">Dicas</a></li>
+            <li><a href="index.html">Mapa</a></li>
+            <li  class="active"><a href="cracha.html">Identificação</a></li>
             <li><a href="#contact">Contato</a></li>
           </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><input id="pac-input" class="controls" type="text" placeholder="Search Box"></li>
-          </ul>
+
         </div><!--/.nav-collapse -->
       </div>
     </nav>
 
-
         <div class="container">
 
-        <div class="crachaBox"></div>
-
+            <div id="crachaBox">
+                <div class="top">
+                    <img src="http://dummyimage.com/120x140/adadad/ffffff&text=Cole+aqui" height="140" width="120" class="userPhoto">
+                    <div class="nome"><b>Nome:</b> <textarea rows="1" cols="20" onkeydown="autoResize(event)"></textarea><br></div>
+                    <div class="cpf"><b>CPF:</b> <input type="text" class="cpfInput"></div>
+                </div>
+                <div class="bottom">
+                    <div class="leanLogo"><img src="http://leansurvey.com.br/wp-content/uploads/2014/10/Logo-Branco.png" height="130" width="110"></div>
+                    <div class="leanTitulo">PESQUISA DE MERCADO LTDA.</div>
+                    <div class="cnpj">CNPJ: 21.279.640/0001-52</div>
+                </div>
+            </div>
+            <div class="printButton">
+<button type="button" class="btn btn-default" onClick="window.print()">Imprimir</button>
+            </div>
         </div>
 
 
