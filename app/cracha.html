@@ -10,6 +10,7 @@
             <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
             <link href="assets/css/style.css" rel="stylesheet">
             <script src="bower_components/jquery/dist/jquery.min.js"></script>
+            <script src="assets/js/scripts.js"></script>
         </head>
 <script type="text/javascript">//<![CDATA[
 
@@ -57,7 +58,8 @@ function autoResize(e) {
 
             <div id="crachaBox">
                 <div class="top">
-                    <img src="http://dummyimage.com/120x140/adadad/ffffff&text=Cole+aqui" height="140" width="120" class="userPhoto">
+
+                    <img id="uploadPhoto" src="http://dummyimage.com/120x140/adadad/ffffff&text=Envie+sua+Foto" height="140" width="120" class="userPhoto" onclick="getPhoto()">
                     <div class="nome"><b>Nome:</b> <textarea rows="1" cols="20" onkeydown="autoResize(event)"></textarea><br></div>
                     <div class="cpf"><b>CPF:</b> <input type="text" class="cpfInput"></div>
                 </div>
@@ -70,6 +72,10 @@ function autoResize(e) {
             <div class="printButton">
 <button type="button" class="btn btn-default" onClick="window.print()">Imprimir</button>
             </div>
+
+            
+<input type="file" id="upload" name="upload" onchange="readURL(this,'uploadPhoto');" style="visibility: hidden"/>
+ 
         </div>
 
 
