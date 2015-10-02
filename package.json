@@ -1,0 +1,28 @@
+{
+  "name": "riotaxi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "engines": {
+  "node": "4.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "postinstall": "./node_modules/.bin/bower install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/henriquemaio/RioTaxi.git"
+  },
+  "author": "Henrique Maio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/henriquemaio/RioTaxi/issues"
+  },
+  "homepage": "https://github.com/henriquemaio/RioTaxi",
+  "dependencies": {
+    "express": "^4.13.3",
+    "bower": "^1.5.3"
+  }
+}
