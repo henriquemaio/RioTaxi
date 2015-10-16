@@ -1,28 +1,95 @@
 [
     {
         "Id": 1,
-        "Latitude": -22.904247,
-        "Longitude": -43.289880,
-        "Titulo": "Casa do Henrique",
-        "Endereco": "Rua Piranga, número 19",
-        "Carros": 10,
-        "Zone": [{"lat": -22.903777, "lng": -43.289465},
-                 {"lat": -22.904543, "lng": -43.289400}, 
-                 {"lat": -22.904587, "lng": -43.290323},
-                 {"lat": -22.903870, "lng": -43.290414}
+        "Latitude": -22.808329,
+        "Longitude": -43.2543055,
+        "Titulo": "Aerocoop Taxi",
+        "Endereco": "Av. Vinte de Janeiro, s/n",
+        "Carros": 80,
+        "Zone": [{"lat": -22.807734, "lng": -43.2549635},
+                 {"lat": -22.808177, "lng": -43.2553575}, 
+                 {"lat": -22.808929, "lng": -43.2542225},
+                 {"lat": -22.808502, "lng": -43.2537975}
                 ]
     },
     {
         "Id": 2,
-        "Latitude": -22.902279,
-        "Longitude": -43.288506,
-        "Titulo": "Meu vizinho",
-        "Endereco": "Rua sei la qual, que se dane",
-        "Carros": 15,
-        "Zone": [{"lat": -22.903777, "lng": -43.289465},
-                 {"lat": -22.904543, "lng": -43.289400}, 
-                 {"lat": -22.904587, "lng": -43.290323},
-                 {"lat": -22.903870, "lng": -43.290414}
+        "Latitude": -22.808369,
+        "Longitude": -43.255638,
+        "Titulo": "ResolveAi Taxi",
+        "Endereco": "Av. Vinte de Janeiro, s/n",
+        "Carros": 60,
+        "Zone": [{"lat": -22.808047, "lng": -43.255828},
+                 {"lat": -22.808421, "lng": -43.255902}, 
+                 {"lat": -22.809149, "lng": -43.254773},
+                 {"lat": -22.808918, "lng": -43.254596}
+                ]
+    },
+    {
+        "Id": 3,
+        "Latitude": -22.9156338,
+        "Longitude": -43.1956669,
+        "Titulo": "Fila de taxis perto do Santa Barbara",
+        "Endereco": "Rua dos Coqueiros",
+        "Carros": 20,
+        "Zone": [{"lat": -22.9160008, "lng": -43.1955359},
+                 {"lat": -22.9159738, "lng": -43.1954639}, 
+                 {"lat": -22.9146148, "lng": -43.1960609},
+                 {"lat": -22.9145968, "lng": -43.1959729}
+                ]
+    },
+    {
+        "Id": 4,
+        "Latitude": -22.9564667,
+        "Longitude": -43.1782907,
+        "Titulo": "Taxis do Shopping Rio Sul",
+        "Endereco": "Av. Venceslau Braz, s/n",
+        "Carros": 30,
+        "Zone": [{"lat": -22.9575903, "lng": -43.1782801},
+                 {"lat": -22.9576013, "lng": -43.1783891}, 
+                 {"lat": -22.9559723, "lng": -43.1786221},
+                 {"lat": -22.9567183, "lng": -43.1774694},
+                 {"lat": -22.9567823, "lng": -43.1775234},
+                 {"lat": -22.9562303, "lng": -43.1784604}
+                ]
+    },
+    {
+        "Id": 5,
+        "Latitude": -22.9994535,
+        "Longitude": -43.3589693,
+        "Titulo": "Taxis do Barra Shopping",
+        "Endereco": "Av. das Americas",
+        "Carros": 40,
+        "Zone": [{"lat": -22.9992415, "lng": -43.3599293},
+                 {"lat": -22.9994585, "lng": -43.3599133}, 
+                 {"lat": -22.9994885, "lng": -43.3586263},
+                 {"lat": -22.9993205, "lng": -43.3586313}
+                ]
+    },
+    {
+        "Id": 6,
+        "Latitude": -22.898718,
+        "Longitude": -43.2101897,
+        "Titulo": "Terminal de taxis da rodoviaria Novo Rio",
+        "Endereco": "Via Binario/Final da Francisco Bicalho",
+        "Carros": 20,
+        "Zone": [{"lat": -22.898451, "lng": -43.2097817},
+                 {"lat": -22.899024, "lng": -43.2100607}, 
+                 {"lat": -22.898767, "lng": -43.2104787},
+                 {"lat": -22.89855, "lng": -43.2101357}
+                ]
+    },
+    {
+        "Id": 7,
+        "Latitude": -22.9229408,
+        "Longitude": -43.2361792,
+        "Titulo": "Taxi Tijuca (Shopping Tijuca)",
+        "Endereco": "Av. Maracana, 987",
+        "Carros": 25,
+        "Zone": [{"lat": -22.9228198, "lng": -43.2360582},
+                 {"lat": -22.9229558, "lng": -43.2359612}, 
+                 {"lat": -22.9231458, "lng": -43.2364252},
+                 {"lat": -22.9229728, "lng": -43.2364282}
                 ]
     }
 ]
